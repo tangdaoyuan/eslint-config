@@ -1,0 +1,17 @@
+{
+  "name": "@tdy/eslint-config-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.32.0"
+  },
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
