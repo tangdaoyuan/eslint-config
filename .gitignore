@@ -76,5 +76,6 @@ dist
 
 # IDE
 .idea
+.vscode
 
 *.lerna_backup
