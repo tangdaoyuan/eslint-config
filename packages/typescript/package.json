@@ -5,6 +5,9 @@
   "license": "ISC",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": ">=7.32.0"
   },
