@@ -178,4 +178,8 @@
   "prettier.printWidth": 200,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "cSpell.words": [
+    "bumpp",
+    "tangdaoyuan"
+  ],
 }

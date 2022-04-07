@@ -1,16 +1,19 @@
 {
   "name": "@tdy/eslint-config-monorepo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": "true",
   "description": "tdy's eslint config",
   "license": "MIT",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag",
+    "publish": "pnpm -r publish --access public"
   },
   "devDependencies": {
     "@tdy/eslint-config": "*",
+    "bumpp": "^7.1.1",
     "eslint": "^8.12.0",
     "typescript": "^4.6.3"
   }
