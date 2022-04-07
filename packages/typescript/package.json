@@ -1,5 +1,5 @@
 {
-  "name": "@tdy/eslint-config-ts",
+  "name": "@suger-tdy/eslint-config-ts",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -12,7 +12,7 @@
     "eslint": ">=7.32.0"
   },
   "dependencies": {
-    "@tdy/eslint-config-basic": "workspace:*",
+    "@suger-tdy/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0"
   },
