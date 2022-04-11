@@ -5,6 +5,7 @@ export interface Test {
   a: string
 }
 
+// eslint-disable-next-line tdy/it-works-ignore
 export function ignoredFunc() {
   return 'ok'
 }

@@ -6,6 +6,6 @@ module.exports = {
     'tdy',
   ],
   rules: {
-    'tdy/it-works-ignore': 'error',
+    'tdy/it-works-ignore': 'warn',
   },
 }
