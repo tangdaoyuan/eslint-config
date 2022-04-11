@@ -77,7 +77,6 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -182,4 +181,6 @@
     "bumpp",
     "tangdaoyuan"
   ],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
 }
