@@ -4,13 +4,13 @@ importers:
 
   .:
     specifiers:
-      '@tdy/eslint-config': '*'
+      '@suger-tdy/eslint-config': '*'
       bumpp: ^7.1.1
       eslint: ^8.12.0
       eslint-plugin-tdy: workspace:*
       typescript: ^4.6.3
     devDependencies:
-      '@tdy/eslint-config': link:packages/all
+      '@suger-tdy/eslint-config': link:packages/all
       bumpp: registry.npmmirror.com/bumpp/7.1.1
       eslint: registry.npmmirror.com/eslint/8.12.0
       eslint-plugin-tdy: link:packages/eslint-plugin-tdy
@@ -18,7 +18,7 @@ importers:
 
   packages/all:
     specifiers:
-      '@tdy/eslint-config-vue': workspace:*
+      '@suger-tdy/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.18.0
       '@typescript-eslint/parser': ^5.18.0
       eslint: ^8.12.0
@@ -29,13 +29,13 @@ importers:
       eslint-plugin-markdown: ^2.2.1
       eslint-plugin-n: ^15.1.0
       eslint-plugin-promise: ^6.0.0
-      eslint-plugin-tdy: workspace:^1.0.0
+      eslint-plugin-tdy: workspace:*
       eslint-plugin-unicorn: ^42.0.0
       eslint-plugin-yml: ^0.14.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
     dependencies:
-      '@tdy/eslint-config-vue': link:../vue
+      '@suger-tdy/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.18.0_a07dca3bdfc4bfa60f4dda0c1f9e3287
       '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.18.0_eslint@8.12.0+typescript@4.6.3
       eslint-plugin-eslint-comments: registry.npmmirror.com/eslint-plugin-eslint-comments/3.2.0_eslint@8.12.0
@@ -92,12 +92,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@tdy/eslint-config-basic': workspace:*
+      '@suger-tdy/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.18.0
       '@typescript-eslint/parser': ^5.18.0
       eslint: ^8.12.0
     dependencies:
-      '@tdy/eslint-config-basic': link:../basic
+      '@suger-tdy/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.18.0_a07dca3bdfc4bfa60f4dda0c1f9e3287
       '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.18.0_eslint@8.12.0+typescript@4.6.3
     devDependencies:
@@ -105,11 +105,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@tdy/eslint-config-ts': workspace:*
+      '@suger-tdy/eslint-config-ts': workspace:*
       eslint: ^8.12.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
-      '@tdy/eslint-config-ts': link:../typescript
+      '@suger-tdy/eslint-config-ts': link:../typescript
       eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/8.5.0_eslint@8.12.0
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.12.0
