@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "watch": "tsup --watch",
+    "test": "vitest",
     "build": "tsup"
   },
   "publishConfig": {
