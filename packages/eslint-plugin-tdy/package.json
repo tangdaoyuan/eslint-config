@@ -28,6 +28,7 @@
     "@typescript-eslint/utils": "^5.18.0"
   },
   "devDependencies": {
-    "tsup": "^5.12.4"
+    "tsup": "^5.12.4",
+    "vitest": "^0.9.3"
   }
 }
