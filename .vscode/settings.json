@@ -38,7 +38,6 @@
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.preferredLightColorTheme": "Default Light+",
-  "workbench.productIconTheme": "icons-carbon",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
