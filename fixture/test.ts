@@ -9,3 +9,10 @@ export interface Test {
 export function ignoredFunc() {
   return 'ok'
 }
+
+// eslint-disable-next-line import/no-mutable-exports
+// eslint-disable-next-line tdy/no-impolite-word
+export function fuck() {
+  // eslint-disable-next-line tdy/no-impolite-word
+  return 'fuck'
+}

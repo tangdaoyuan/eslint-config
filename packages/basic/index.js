@@ -292,5 +292,6 @@ module.exports = {
 
     // custom
     'tdy/it-works-ignore': 'warn',
+    'tdy/no-impolite-word': 'warn',
   },
 }
