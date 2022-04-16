@@ -1,19 +1,13 @@
-import { ESLintUtils } from '@typescript-eslint/utils'
 import WORDS from 'impolite-word'
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const impoliteSet = new Set(WORDS)
-
-const createRule = ESLintUtils.RuleCreator(
-  name => name,
-)
+import createRule from '../utils'
 
 export const RULE_NAME = 'no-impolite-word'
-
 export const MESSAGE_ID = 'impolite-word'
 
-export default createRule({
+export default createRule<[], typeof MESSAGE_ID>({
   create(context) {
+    const impoliteSet = new Set(WORDS)
+
     return {
       Program() {
         const code = context.getSourceCode()

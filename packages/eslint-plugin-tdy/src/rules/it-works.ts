@@ -1,8 +1,4 @@
-import { ESLintUtils } from '@typescript-eslint/utils'
-
-const createRule = ESLintUtils.RuleCreator(
-  name => name,
-)
+import createRule from '../utils'
 
 export const RULE_NAME = 'it-works-ignore'
 
