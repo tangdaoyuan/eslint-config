@@ -173,10 +173,6 @@
   "volar.showWelcomePage": false,
   "volar.takeOverMode.enabled": true,
   "windicss.enableCodeFolding": false,
-  "prettier.enable": false,
-  "prettier.printWidth": 200,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   "cSpell.words": [
     "bumpp",
     "suger",
@@ -184,4 +180,5 @@
   ],
   "editor.formatOnSave": true,
   "eslint.format.enable": true,
+  "eslint.trace.server": "verbose"
 }
