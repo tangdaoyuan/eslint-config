@@ -1,8 +1,8 @@
-import { ESLintUtils } from '@typescript-eslint/utils'
+import createRule from '../utils'
 
-const createRule = ESLintUtils.RuleCreator(
-  name => name,
-)
+export const RULE_NAME = 'it-works-ignore'
+
+export const MESSAGE_ID = 'ignore-case'
 
 export default createRule({
   create(context) {
@@ -11,7 +11,7 @@ export default createRule({
         if (node.id != null) {
           if (node.id.name === 'ignoredFunc') {
             context.report({
-              messageId: 'ignoreCase',
+              messageId: MESSAGE_ID,
               node: node.id,
             })
           }
@@ -19,7 +19,7 @@ export default createRule({
       },
     }
   },
-  name: 'it-works-ignore',
+  name: RULE_NAME,
   meta: {
     docs: {
       description:
@@ -27,7 +27,7 @@ export default createRule({
       recommended: 'warn',
     },
     messages: {
-      ignoreCase: 'Ignore this rule!!!',
+      [MESSAGE_ID]: 'Ignore this rule!!!',
     },
     type: 'suggestion',
     schema: [],

@@ -32,6 +32,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
+    'tdy',
   ],
   settings: {
     'import/resolver': {
@@ -288,5 +289,9 @@ module.exports = {
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
+
+    // custom
+    'tdy/it-works-ignore': 'warn',
+    'tdy/no-impolite-word': 'warn',
   },
 }
