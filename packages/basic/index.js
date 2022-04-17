@@ -291,7 +291,7 @@ module.exports = {
     'yml/no-empty-document': 'off',
 
     // custom
-    'tdy/it-works-ignore': 'warn',
+    'tdy/it-works-ignore': 'off',
     'tdy/no-impolite-word': 'warn',
   },
 }
