@@ -15,6 +15,7 @@
     "eslint": ">=7.32.0"
   },
   "dependencies": {
+    "@suger-tdy/eslint-config-react": "workspace:*",
     "@suger-tdy/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",

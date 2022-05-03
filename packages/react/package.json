@@ -1,0 +1,24 @@
+{
+  "name": "@suger-tdy/eslint-config-react",
+  "version": "1.0.5",
+  "description": "",
+  "license": "MIT",
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.32.0"
+  },
+  "dependencies": {
+    "@suger-tdy/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
