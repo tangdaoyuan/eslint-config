@@ -41,7 +41,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.json', '*.json5'],
+      files: ['*.json', '*.json5', '**/*.md/*.{json,jsonc,json5}'],
       parser: 'jsonc-eslint-parser',
       rules: {
         'quotes': ['error', 'double'],
@@ -129,7 +129,7 @@ module.exports = {
     },
     {
       // Code blocks in markdown file
-      files: ['**/*.md/*.*'],
+      files: ['**/*.md/*.{ts,js,tsx,jsx}'],
       rules: {
         '@typescript-eslint/no-redeclare': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
