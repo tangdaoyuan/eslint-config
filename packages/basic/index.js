@@ -47,6 +47,7 @@ module.exports = {
         'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
+        'jsonc/indent': ['error', 2],
       },
     },
     {
