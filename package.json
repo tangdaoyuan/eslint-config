@@ -15,7 +15,7 @@
   "devDependencies": {
     "@suger-tdy/eslint-config": "*",
     "bumpp": "^7.2.0",
-    "eslint": "^8.18.0",
+    "eslint": "^8.19.0",
     "eslint-plugin-tdy": "workspace:*",
     "typescript": "^4.7.4"
   }
