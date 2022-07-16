@@ -1,6 +1,6 @@
 {
   "name": "@suger-tdy/eslint-config",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "",
   "license": "ISC",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
@@ -17,8 +17,8 @@
   "dependencies": {
     "@suger-tdy/eslint-config-react": "workspace:*",
     "@suger-tdy/eslint-config-vue": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.30.5",
-    "@typescript-eslint/parser": "^5.30.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
