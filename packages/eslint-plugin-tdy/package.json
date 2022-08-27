@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@typescript-eslint/utils": "^5.35.1",
-    "impolite-word": "^0.0.2"
+    "impolite-word": "^0.0.5"
   },
   "devDependencies": {
-    "tsup": "^5.12.9",
-    "vitest": "^0.12.10"
+    "tsup": "^6.2.3",
+    "vitest": "^0.22.1"
   }
 }
