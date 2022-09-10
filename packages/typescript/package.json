@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@suger-tdy/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1"
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2"
   },
   "devDependencies": {
     "eslint": "^8.23.0"

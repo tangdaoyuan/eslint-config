@@ -26,11 +26,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.35.1",
+    "@typescript-eslint/utils": "^5.36.2",
     "impolite-word": "^0.0.5"
   },
   "devDependencies": {
     "tsup": "^6.2.3",
-    "vitest": "^0.22.1"
+    "vitest": "^0.23.1"
   }
 }
