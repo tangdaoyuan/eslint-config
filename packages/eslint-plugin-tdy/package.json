@@ -2,7 +2,7 @@
   "name": "eslint-plugin-tdy",
   "version": "2.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "MIT",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
