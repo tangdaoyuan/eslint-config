@@ -26,7 +26,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.41.0",
+    "@typescript-eslint/utils": "^5.45.0",
     "impolite-word": "^0.0.2"
   },
   "devDependencies": {
